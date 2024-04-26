@@ -23,7 +23,7 @@ def smallest_missing_positive_integer(nums: List[int]) -> int:
         if nums[i] != i + 1:
             return i + 1
     
-    # If all positive integers from 1 to n are present, return n + 1
+   
     return n + 1
 
 # Test cases
