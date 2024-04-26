@@ -1,15 +1,6 @@
 
 
 def longest_substring(s: str) -> int:
-    """
-    Find the length of the longest substring without repeating characters.
-
-    Args:
-    s: Input string.
-
-    Returns:
-    Length of the longest substring without repeating characters.
-    """
     # Dictionary to store the most recent index of each character
     char_index = {}
     max_length = 0
