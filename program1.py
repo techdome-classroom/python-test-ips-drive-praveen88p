@@ -12,7 +12,6 @@ def smallest_missing_positive_integer(nums: List[int]) -> int:
     """
     n = len(nums)
     
-    # Perform cyclic sort to place each number at its correct index
     i = 0
     while i < n:
         if 0 < nums[i] <= n and nums[i] != nums[nums[i] - 1]:
