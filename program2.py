@@ -16,6 +16,3 @@ def longest_substring(s: str) -> int:
         max_length = max(max_length, end - start + 1)
 
     return max_length
-
-# Test case
-print(longest_substring("abcabcbb"))  # Output: 3
