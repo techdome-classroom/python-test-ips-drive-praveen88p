@@ -19,7 +19,6 @@ def smallest_missing_positive_integer(nums: List[int]) -> int:
         else:
             i += 1
     
-    # Iterate through the sorted array to find the smallest missing positive integer
     for i in range(n):
         if nums[i] != i + 1:
             return i + 1
