@@ -1,5 +1,3 @@
-
-
 def longest_substring(s: str) -> int:
     char_index = {}
     max_length = 0
