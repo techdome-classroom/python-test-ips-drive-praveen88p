@@ -41,7 +41,7 @@ def smallest_missing_positive_integer(nums: List[int]) -> int:
 
 # Test cases
 print(smallest_missing_positive_integer([3, 4, -1, 1]))  
-print(smallest_missing_positive_integer([1, 2, 0]))      3
+print(smallest_missing_positive_integer([1, 2, 0]))     
 print(smallest_missing_positive_integer([-1, -3, 4, 2])) 
 
 
