@@ -1,15 +1,6 @@
 from typing import List
 
 def smallest_missing_positive_integer(nums: List[int]) -> int:
-    """
-    Find the smallest missing positive integer in the given list.
-
-    Args:
-    nums: An unsorted list of integers.
-
-    Returns:
-    The smallest missing positive integer.
-    """
     n = len(nums)
     
     i = 0
