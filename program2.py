@@ -1,7 +1,6 @@
 
 
 def longest_substring(s: str) -> int:
-    # Dictionary to store the most recent index of each character
     char_index = {}
     max_length = 0
     start = 0
