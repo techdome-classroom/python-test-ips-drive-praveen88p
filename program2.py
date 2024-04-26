@@ -6,7 +6,7 @@ def longest_substring(s: str) -> int:
     start = 0
 
     for end in range(len(s)):
-        # If the current character is already in the dictionary and its index is after the start of the current substring
+        
         if s[end] in char_index and char_index[s[end]] >= start:
             # Update the start of the substring to the next character after the last occurrence of the current character
             start = char_index[s[end]] + 1
