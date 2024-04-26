@@ -1,4 +1,3 @@
-
 from typing import List
 
 def smallest_missing_positive_integer(nums: List[int]) -> int:
